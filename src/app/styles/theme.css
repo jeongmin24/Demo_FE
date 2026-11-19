@@ -1,11 +1,15 @@
 :root {
   color-scheme: dark;
-  --page-bg: #14161a;
-  --text-primary: #f3f4f6;
-  --text-muted: #aeb6c2;
-  --note-bg: #4a3f22;
-  --note-text: #fff5cd;
-  --note-border: #967e40;
-  --accent: #a5b4fc;
-  --note-shadow: 0 10px 28px rgb(0 0 0 / 24%);
+  --page-bg: light-dark(#f5f3ee, #181721);
+  --text-primary: light-dark(#26232f, #f5f2fa);
+  --text-muted: light-dark(#5e5968, #bdb8cb);
+  --accent: light-dark(#514097, #c2b3ff);
+
+  --note-yellow: #f7dfa0;
+  --note-green: #e1efaf;
+  --note-apricot: #f7c6ac;
+  --note-lavender: #ded1f7;
+  --note-text: #302738;
+  --note-edge: rgb(48 39 56 / 7%);
+  --note-shadow: 0 2px 4px rgb(28 21 33 / 10%), 0 9px 18px rgb(28 21 33 / 12%);
 }
