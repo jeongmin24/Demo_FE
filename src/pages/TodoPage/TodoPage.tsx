@@ -9,9 +9,6 @@ export function TodoPage() {
     <main className="todo-page">
       <header className="todo-page__header">
         <h1>오늘의 Todo</h1>
-        {state.status === 'ready' && (
-          <p>전체 {state.todos.length}개 · 완료 {state.todos.filter((todo) => todo.completed).length}개</p>
-        )}
       </header>
       {state.status === 'loading' && <p role="status">투두를 불러오는 중입니다.</p>}
       {state.status === 'error' && (

@@ -6,7 +6,6 @@
 
 .todo-page__header { margin-block-end: 2rem; }
 .todo-page__header h1 { margin: 0; font-size: clamp(2rem, 6vw, 3.75rem); letter-spacing: -.055em; }
-.todo-page__header p { margin: .25rem 0 0; color: var(--text-muted); }
 
 .todo-page__error button {
   border: 1px solid var(--accent);
