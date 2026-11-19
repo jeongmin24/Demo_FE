@@ -1,0 +1,13 @@
+.todo-note {
+  min-height: 11rem;
+  padding: 1.15rem 1.25rem;
+  border-block-start: .25rem solid var(--note-border);
+  border-radius: .3rem .3rem .8rem .3rem;
+  background: var(--note-bg);
+  color: var(--note-text);
+  box-shadow: var(--note-shadow);
+}
+
+.todo-note__status { font-size: .85rem; }
+.todo-note__content { margin: .7rem 0 0; font-weight: 600; white-space: pre-wrap; overflow-wrap: anywhere; }
+.todo-note[data-completed='true'] .todo-note__content { text-decoration: line-through; }
