@@ -1,15 +1,20 @@
 :root {
-  color-scheme: dark;
-  --page-bg: light-dark(#f5f3ee, #181721);
-  --text-primary: light-dark(#26232f, #f5f2fa);
-  --text-muted: light-dark(#5e5968, #bdb8cb);
-  --accent: light-dark(#514097, #c2b3ff);
+  font-family: Poppins, Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  color: #1d1b3b;
+  background-color: #faf9f4;
+  color-scheme: light;
 
-  --note-yellow: #f7dfa0;
-  --note-green: #e1efaf;
-  --note-apricot: #f7c6ac;
-  --note-lavender: #ded1f7;
-  --note-text: #302738;
-  --note-edge: rgb(48 39 56 / 7%);
-  --note-shadow: 0 2px 4px rgb(28 21 33 / 10%), 0 9px 18px rgb(28 21 33 / 12%);
+  --hero-background:
+    radial-gradient(ellipse at 0% 4%, #f0fae8 0%, transparent 65%),
+    radial-gradient(ellipse at 15% 38%, #fafadf 0%, transparent 50%),
+    linear-gradient(124deg, #fcfdef 0%, #faf4ea 60%, #f7f5fa 100%);
+  --button-background: #a2f2d4;
+  --button-hover: #8be6c5;
+  --button-foreground: #152e25;
+  --success-background: #e9fcf3;
+  --success-border: #a6dfc8;
+  --success-foreground: #173e30;
+  --failure-background: #fff0f1;
+  --failure-border: #efbdc3;
+  --failure-foreground: #782a39;
 }

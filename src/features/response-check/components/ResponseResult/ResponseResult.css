@@ -1,0 +1,50 @@
+.response-result {
+  display: grid;
+  justify-items: center;
+  gap: 0.4rem;
+  width: 100%;
+  max-height: 100%;
+  padding: 0.95rem 1.3rem 1.1rem;
+  overflow: auto;
+  overflow-wrap: anywhere;
+  color: var(--success-foreground);
+  background: var(--success-background);
+  border: 1px solid var(--success-border);
+  border-radius: 1rem;
+}
+
+.response-result[data-outcome='failure'] {
+  color: var(--failure-foreground);
+  background: var(--failure-background);
+  border-color: var(--failure-border);
+}
+
+.response-result__label {
+  padding: 0.12rem 0.62rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.response-result__code {
+  font-size: clamp(1.65rem, 3vw, 2.5rem);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.14;
+}
+
+.response-result__message {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.response-result__sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

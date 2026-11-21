@@ -1,5 +1,5 @@
-import { TodoPage } from '../pages/TodoPage/TodoPage'
+import { ResponseCheckPage } from '../pages/ResponseCheckPage/ResponseCheckPage'
 
 export function App() {
-  return <TodoPage />
+  return <ResponseCheckPage />
 }
